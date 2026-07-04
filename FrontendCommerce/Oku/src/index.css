@@ -60,8 +60,11 @@ body {
 }
 
 .faMoon{
-  color: hsl(231, 100%, 35%);
-  font-size: 22px;
+  color: hsl(0, 0%, 100%);
+  font-size: 18px;
+  position: absolute;
+  left: 2px;
+  top: 5px;
 }
 
 .faZhihu{
@@ -70,8 +73,11 @@ body {
   
 }
 .faSun{
-  color: hsl(50, 100%, 35%);
-  font-size: 22px;
+  color: hsl(50, 100%, 40%);
+  font-size: 18px;
+  position: absolute;
+  right: 2px;
+  top: 5px;
 }
 
 
@@ -118,16 +124,58 @@ cursor: pointer;
 } 
 
 
+.header-button-main{
+  background-color:transparent;
+}
+
+.header-button{
+  background:linear-gradient(90deg, rgba(170,59,255,1) 0%, rgba(255,0,0,1) 100%);
+}
+.faMagnifyingGlass{
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+}
+.header-list-item-light{
+  color: hsl(0, 0%, 50%);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-list-item-dark{
+  color: hsl(0, 0%, 0%);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-toggle-light{
+  height: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 55px;
+  width: 60px;
+  background-color: transparent;
+  display: flex;
+  justify-content: end;
+  padding: 3px;
+  position: relative;
+  align-items: center;
+}
+.header-toggle-light-active{
+  justify-content: start;
+  border: 1px solid hsl(0, 0%, 0%);
+}
 
 
+.header-button-mode{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+}
 
+.header-button-mode-active{
+  background-color: hsl(0, 0%, 0%);
 
-
-
-
-
-
-
+}
 
 
 
