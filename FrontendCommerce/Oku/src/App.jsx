@@ -1,7 +1,7 @@
 
 import './App.css'
-import Consoler from './assets/Consoler';
 import { useState } from 'react';
+import Consoler from './Consoler';
 function App() {
 
   const [mode, setMode] = useState(false);

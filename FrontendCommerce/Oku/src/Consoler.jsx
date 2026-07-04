@@ -1,3 +1,6 @@
+
+import lion from "./assets/lion.png"
+import lionlight from "./assets/lionlight.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faSun, faMoon, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 import { faZhihu } from "@fortawesome/free-brands-svg-icons"
@@ -8,6 +11,7 @@ export default function Consoler({ mode, setMode }) {
     return (
      <div>
 <Header mode={mode} setMode={setMode} />
+<DisplayMain mode={mode} setMode={setMode} />
      </div>
     )
 
@@ -63,3 +67,23 @@ document.querySelector(".header-toggle-light").classList.toggle("header-toggle-l
 
 
     }
+
+function DisplayMain({mode, setMode}) {
+
+    return(
+        <div className="main-container">
+          <div className="main-text-container"></div>
+            <div className="main-image-container" ><img src={ mode ? lion : lionlight} alt="Lion" className="main-image" /></div>
+        </div>
+    )
+}
+
+
+
+
+
+
+
+
+
+

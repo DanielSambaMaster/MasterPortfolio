@@ -41,7 +41,6 @@ body {
  height: 100px;
  display: grid;
  grid-template-columns: 1fr 1fr 1fr;
-
 }
 .header-title{
   text-align: center;
@@ -67,7 +66,7 @@ body {
 
 .faMoon{
   color: hsl(0, 0%, 100%);
-  color: hsl(0, 100%, 25%);
+  color: #800000;
   font-size: 18px;
   position: absolute;
   left: 2px;
@@ -201,6 +200,37 @@ font-weight: 600;
   background-color: hsl(0, 0%, 0%);
 
 }
+
+
+
+
+
+
+
+
+
+
+.main-container{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 500px;
+}
+
+.main-image{
+  height: 500px;
+}
+.main-text-container{
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
