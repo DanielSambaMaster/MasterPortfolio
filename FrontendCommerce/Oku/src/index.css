@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root {
   --text: #6b6375;
   
@@ -44,18 +46,39 @@ body {
   align-self: center;
 }
 
-.header-title-text{
+.header-title-text-light, .header-title-text-dark{
   font-size: 2rem;
   font-weight: bold;
-  color: rgb(255, 255, 255);
-  
+    font-family: 'Pacifico', cursive;
 }
 
-.header-button{
- padding: 10px 20px;
- border-radius: 55px;
- font-size: 1rem;
+.header-title-text-light{
+  color: hsl(0, 0%, 0%);
 }
+.header-title-text-dark{
+  color: hsl(0, 0%, 100%);
+}
+
+.faMoon{
+  color: hsl(231, 100%, 35%);
+  font-size: 22px;
+}
+
+.faZhihu{
+  color: hsl(0, 0%, 0%);
+  font-size: 22px;
+  
+}
+.faSun{
+  color: hsl(50, 100%, 35%);
+  font-size: 22px;
+}
+
+
+
+
+
+
 .header-list{
   display: flex;
 
@@ -83,6 +106,27 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.header-button-main, .header-button-languages, .header-button{
+border-radius: 55px;
+margin: 0 10px;
+height: 40px;
+width: 40px;
+border: none;
+cursor: pointer;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
