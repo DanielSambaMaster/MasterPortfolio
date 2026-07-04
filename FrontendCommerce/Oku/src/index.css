@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 :root {
   --text: #6b6375;
   
@@ -53,14 +55,19 @@ body {
 }
 
 .header-title-text-light{
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 40%);
 }
 .header-title-text-dark{
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 70%);
+}
+.header-title-text-light:hover, .header-title-text-dark:hover{
+  color: hsl(50, 100%, 40%);
+  cursor: pointer;
 }
 
 .faMoon{
   color: hsl(0, 0%, 100%);
+  color: hsl(0, 100%, 25%);
   font-size: 18px;
   position: absolute;
   left: 2px;
@@ -113,7 +120,7 @@ body {
   align-items: center;
 }
 
-.header-button-main, .header-button-languages, .header-button{
+.header-button-main, .header-button-languages, .header-button, .header-button-dark, .header-button-light{
 border-radius: 55px;
 margin: 0 10px;
 height: 40px;
@@ -128,20 +135,38 @@ cursor: pointer;
   background-color:transparent;
 }
 
-.header-button{
-  background:linear-gradient(90deg, rgba(170,59,255,1) 0%, rgba(255,0,0,1) 100%);
+.header-button-dark{
+height: 30px;
+width: 30px;
+background-color: hsl(43, 97%, 50%);
+}
+.header-button-light{
+height: 30px;
+width: 30px;
+background-color: hsl(0, 100%, 17%);
+
 }
 .faMagnifyingGlass{
   font-size: 18px;
   color: hsl(0, 0%, 100%);
+  font-weight: bold;
+
 }
 .header-list-item-light{
-  color: hsl(0, 0%, 50%);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: hsl(0, 0%, 70%);
+font-family: "Kaushan Script", cursive;
+
+}
+.header-list-item-light:hover, .header-list-item-dark:hover{
+  color: hsl(50, 100%, 40%);
+  font-weight: bold;
 }
 .header-list-item-dark{
   color: hsl(0, 0%, 0%);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+font-family: "Kaushan Script", cursive;
+font-weight: 600;
+
 }
 
 .header-toggle-light{

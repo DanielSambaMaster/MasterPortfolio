@@ -4,6 +4,7 @@ import { faZhihu } from "@fortawesome/free-brands-svg-icons"
 export default function Consoler({ mode, setMode }) {
 //                    <button className="header-button-main" onClick={() => ChangeMode({mode, setMode})}>{mode ? <FontAwesomeIcon icon={faMoon} className="faMoon" /> : <FontAwesomeIcon icon={faSun} className="faSun"/>}</button>
 
+//{mode ? "header-button-dark" : "header-button-light"}
     return (
      <div>
 <Header mode={mode} setMode={setMode} />
@@ -19,7 +20,9 @@ export default function Consoler({ mode, setMode }) {
     return(
         <div className={mode ? "headerlight" : "headerdark"}>
 
-                <div className="header-title"><span className={mode ? "header-title-text-light" : "header-title-text-dark"}>Daniel Samba</span> <button className="header-button"><FontAwesomeIcon icon={faMagnifyingGlass} className="faMagnifyingGlass" /></button></div>
+                <div className="header-title">
+                    <span className={mode ? "header-title-text-light" : "header-title-text-dark"}>Daniel Samba</span> 
+                    <button className={mode ? "header-button-dark" : "header-button-light"}><FontAwesomeIcon icon={faMagnifyingGlass} className="faMagnifyingGlass" /></button></div>
                 <div className="header-list-container">
 
                     <ul className="header-list">
@@ -40,7 +43,8 @@ export default function Consoler({ mode, setMode }) {
                         </button>
                          <FontAwesomeIcon icon={faSun} className="faSun"/>
                     </div>
-                    <button className="header-button-languages"><FontAwesomeIcon icon={faZhihu} className="faZhihu" /></button>
+
+
                 </div>
 
 
