@@ -289,3 +289,10 @@ gap: 10px;
   gap: 10px;
   margin-left: 10px;
 }
+
+.main-text-contentyy-dark{
+  color: hsl(0, 0%, 65%);
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}

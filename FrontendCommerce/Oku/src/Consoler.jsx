@@ -81,6 +81,15 @@ function DisplayMain({mode, setMode}) {
 
 <div className={mode ? "main-text-contenty-light" : "main-text-contenty-dark"}>
 
+
+<span className={mode? "main-text-contentyy-light": "main-text-contentyy-dark"}>
+
+
+Software Engineer | Full Stack Developer | Tech Enthusiast
+
+</span>
+<br></br>
+<br></br>
     <span className={mode ? "main-text-content-light" : "main-text-content-dark"}>
         Sobre Mim<br/>
 
