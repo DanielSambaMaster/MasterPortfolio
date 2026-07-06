@@ -41,14 +41,20 @@ export default function Consoler({ mode, setMode }) {
 
                     <div className="header-toggle-light">
 
-<FontAwesomeIcon icon={faMoon} className="faMoon" /> 
+                        <FontAwesomeIcon icon={faMoon} className="faMoon" /> 
                            
                         <button className="header-button-mode" onClick={() => ChangeMode({mode, setMode})}  >
                         </button>
-                         <FontAwesomeIcon icon={faSun} className="faSun"/>
+                        <FontAwesomeIcon icon={faSun} className="faSun"/>
                     </div>
 
-
+                <div className="header-languages">
+                <div>PT |</div>
+                <div>EN |</div>
+                <div>FR |</div>
+                <div>CN </div>
+                </div>
+                
                 </div>
 
 
@@ -67,7 +73,6 @@ document.querySelector(".header-toggle-light").classList.toggle("header-toggle-l
 
 
     }
-
 function DisplayMain({mode, setMode}) {
 
     return(
@@ -89,12 +94,6 @@ Ao longo do meu percurso, tenho desenvolvido competências em desenvolvimento we
 
 <br/>Além da área tecnológica, possuo experiência em ambientes corporativos, especialmente em operações e atendimento ao cliente, o que me permitiu desenvolver competências como comunicação, trabalho em equipa, resolução de problemas e gestão de processos.
     </span>
-
- 
-    
-
-
-
 <div class="technologies">
 
   <div class="tech">
@@ -195,28 +194,6 @@ Ao longo do meu percurso, tenho desenvolvido competências em desenvolvimento we
   </div>
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
           </div>
@@ -224,13 +201,3 @@ Ao longo do meu percurso, tenho desenvolvido competências em desenvolvimento we
         </div>
     )
 }
-
-
-
-
-
-
-
-
-
-
