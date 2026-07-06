@@ -296,3 +296,9 @@ gap: 10px;
   font-size: 20px;
   font-weight: bold;
 }
+.main-text-contentyy-light{
+  color: hsl(0, 0%, 50%);
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
+  font-weight: bold;
+}
